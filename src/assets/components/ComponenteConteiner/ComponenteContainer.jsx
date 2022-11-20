@@ -1,8 +1,20 @@
-import { Titulo } from "../Titulo/Titulo";
+import ItemListConteiner from "../ItemListConteiner/ItemListConteiner"
+import NavBar from "../NavBar/NavBar"
+import { Titulo } from "../Titulo/Titulo"
 
-const ComponenteContainer = {greeting, titulo, subtitulo}
+function ComponenteContainer () {
+    let tituloApp = 'Evaristo'
+    
+        return (
 
-let tituloApp = 'Evaristo'
-const saludo = () => console.log('Hola')
+        <>
+        <Titulo titulo={tituloApp} subTitulo={'Almacen de Comidas'} />
+        <NavBar />
+        <ItemListConteiner saludo={'Saludos'} />
+        </>
+        )
+    }
+    
 
 export default ComponenteContainer
+

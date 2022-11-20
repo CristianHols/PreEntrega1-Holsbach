@@ -1,6 +1,5 @@
-div{
-    margin-top: 3rem;
+div .titulo_subtitulo{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    color: beige;
 }

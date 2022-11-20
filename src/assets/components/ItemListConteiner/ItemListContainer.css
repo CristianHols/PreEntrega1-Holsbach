@@ -7,7 +7,6 @@
     display: flex;
     list-style: none;
     justify-content:space-around;
-    align-items: left;
+    align-items: center;
     background-color: green;
-
 }
