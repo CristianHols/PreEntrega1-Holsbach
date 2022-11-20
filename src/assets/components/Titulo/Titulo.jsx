@@ -1,3 +1,4 @@
+import './Titulo.css'
 export 
 
 function Titulo({ titulo='titulo por defecto' , subTitulo='Subtitulo por defecto' }) {

@@ -1,0 +1,21 @@
+.navegador{
+    height: 100%;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    display: flex;
+    list-style: none;
+    justify-content:space-between;
+    align-items: center;
+    background-color: green;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    align-items: left;
+}
+.nav_link{
+    text-decoration: none;
+    color: beige;
+}
